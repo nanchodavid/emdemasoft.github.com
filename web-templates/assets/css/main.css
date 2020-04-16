@@ -5,11 +5,33 @@
 body{
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
-.header{
-  width: 100%;
-  height: 80px;
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
+
+/*fonts*/
 .title{
+  font-family: 'Marcellus', serif;
   color: white;
+}
+.title h1{
+  font-size: 30px;
+  display: inline-block;
+}
+.title span{
+  font-size: 23px;
+  padding-left: 10px;
+}
+/*images*/
+
+
+/*Banner, Header, Nav*/
+.header{
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 100%;
+  height: 50px;
+  padding-top: 7px;
+  padding-left: 20px;
+}
+/*Slider*/
+.slider{
+  width: 100%;
+  height: 500px;
 }
