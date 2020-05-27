@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="./assets/font-awesome/css/all.css">
   </head>
   <body>
-    <div class="banner">
-      <header>
-        <div class="title text-center">
+    <header>
+        <div class="title text-center no-seleccionable">
           <h1>COOP Asovoltank</h1>
         </div>
-        <nav class="nav">
+        <nav class="nav no-seleccionable">
           <ul>
 
             <li class="nav-link"><a href="#">Nosotros</a></li>
@@ -24,21 +23,47 @@
             <li class="nav-link"><a href="#">Contacto</a></li>
           </ul>
         </nav>
-      </header>
-    </div>
+    </header>
     <div class="container">
-      <h1>NOTA: Tratemos de comunicarnos por Trello, en cada actividad te dejo
-      una nota y tu no la ves. Otra cosa, vamos hacer nuevamente el diseno
-    no se que hacer ni que anadir.</h1>
 
-       <h2>Somos una empresa de transporte con operación a nivel nacional. </br> Proveemos
-       diferentes servicios como transporte empresarial, escolar y de turismo. </h2>
+      <section class="section flex-box">
+        <div class="descripcion">
+          <p>
+            <b>COOP-ASOVOLTANK</b>, Es una cooperativa de transporte especial, con operación a nivel nacional.
+            Tenemos como objeto principal prestar el servicio de Buses, Microbuses, Busetas, Camionetas,
+            Volquetas, Ambulancias, Cama Baja, Cama Alta y Maquinaria Pesada. Ejecutamos Obras Civiles
+            y suministramos Mano de Obra Calificada; propia del objeto social definido.
+          </p>
+          <p>
+            <b>COOP-ASOVOLTANK</b> Nace en San Pedro (Sucre), de igual forma trabajamos en todo el país donde se requieran nuestros servicios.
+          </p>
+        </div>
+        <div class="mision-vision">
 
+
+        </div>
+      </section>
     </div>
-    <footer>
-      <div class="">
 
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="row">
+            <div class="col-sm-4">
+
+            </div>
+            <div class="col-sm-4">
+
+            </div>
+            <div class="col-sm-4">
+              <div id="google-maps" class="google-maps"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
   </body>
 </html>
