@@ -67,13 +67,9 @@ header{
 .section{
   height: 80vh;
   padding: 100px 20px;
-
-
 }
 .descripcion p{
   text-align: left;
-  margin-right:700px;
-
 }
 .imagen1{
   height: 100vh;
@@ -96,9 +92,20 @@ footer .container, .footer-main-conten,
   margin-top: 40px;
   padding-bottom: 20px;
 }
-.footer-main-content .contact-items p{
-  margin-bottom: -3px;
+.footer-main-content .contacto .col-icon{
+  color: white;
+  font-size: 20px;
 }
+.footer-main-content .contacto .col{
+  padding-left: 0 !important;
+}
+.footer-main-content .contacto .col p{
+  margin-bottom: 0;
+}
+.footer-main-content .contacto .row{
+  padding-bottom: 10px;
+}
+
 .footer-lower-content{
   width: 100%;
   height: 50px;
