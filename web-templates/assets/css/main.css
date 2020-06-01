@@ -65,8 +65,23 @@ header{
 }
 /*Conten*/
 .section{
-  height: 50vh;
+  height: 80vh;
+  padding: 100px 20px;
+
+
 }
+.descripcion p{
+  text-align: left;
+  margin-right:700px;
+
+}
+.imagen1{
+  height: 100vh;
+  width: 100vh;
+  margin:auto;
+
+}
+
 /*Footter*/
 footer{
   background-color: #2F4957;
