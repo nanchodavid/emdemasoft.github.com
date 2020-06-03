@@ -16,7 +16,6 @@
         </div>
         <nav class="nav no-seleccionable">
           <ul>
-
             <li class="nav-link"><a href="#">Nosotros</a></li>
             <li class="nav-link"><a href="#">Nuestros Servicios</a></li>
             <li class="nav-link"><a href="#">Acceso SGT</a></li>
@@ -43,13 +42,15 @@
     </div>
     <!-- Footer ----------------------------------------->
     <footer>
-      <div class="container">
-        <div class="footer-main-content row">
-          <div class="col-sm-6">
-            <h2 class="title title-footer">Asovoltank</h2>
-              <div class="contacto">
+      <div class="footer-main container">
+        <div class="footer-title">
+          <h2>Asovoltank</h2>
+        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 contact">
                 <div class="row">
-                  <div class="col-sm-2 col-icon flexbox">
+                  <div class="col-ms-2">
                     <i class="fas fa-map-marked-alt"></i>
                   </div>
                   <div class="col">
@@ -57,7 +58,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-2 col-icon flexbox">
+                  <div class="col-ms-2">
                     <i class="fas fa-envelope-open-text"></i>
                   </div>
                   <div class="col">
@@ -65,20 +66,28 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-2 col-icon flexbox">
+                  <div class="col-ms-2">
                     <i class="fas fa-mobile-alt"></i>
                   </div>
                   <div class="col">
-                    <p> 314 617 7479 – 311 617 5438 – 321 619 2989</p>
+                    <p> <b>314</b>-617 7479 / <b>311</b>-617 5438 / <b>321</b>-619 2989</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="btn-contact">
+                    <a href="#" class="btn btn-light"><i class="fas fa-paper-plane"></i> Contactanos</a>
                   </div>
                 </div>
               </div>
+              <div class="col">
+                <div id="google-maps" class="google-maps"></div>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-6 flexbox">
-            <div id="google-maps" class="google-maps"></div>
-          </div>
-        <div class="footer-lower-content">
-          <div class="copy-rights flexbox">
+      </div>
+      <div class="footer-lower">
+        <div class="container flexbox">
+          <div class="copy-right">
             <p>© 2020 Asovoltank. All rights reserved.</p>
           </div>
           <div class="social-networks">
@@ -91,6 +100,7 @@
         </div>
       </div>
     </footer>
+
     <!-- Scripts -------------------------------------------->
     <script src="./assets/js/script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>

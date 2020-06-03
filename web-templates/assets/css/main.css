@@ -78,69 +78,72 @@ header{
 
 }
 
-/*Footter*/
-footer{
-  background-color: #2F4957;
-  width: 100%;
-  height: 450px;
-}
-footer .container, .footer-main-conten,
-.footer-main-content, .footer-main-content .row{
-  height: 100%;
-}
-.footer-main-content h2{
-  margin-top: 40px;
-  padding-bottom: 20px;
-}
-.footer-main-content .contacto .col-icon{
-  color: white;
-  font-size: 20px;
-}
-.footer-main-content .contacto .col{
-  padding-left: 0 !important;
-}
-.footer-main-content .contacto .col p{
-  margin-bottom: 0;
-}
-.footer-main-content .contacto .row{
-  padding-bottom: 10px;
-}
-
-.footer-lower-content{
-  width: 100%;
-  height: 50px;
-  margin-top: 30px;
-}
-.footer-lower-content p{
-  margin-bottom: 0;
-}
-.contact-items{
-  display: inline-block;
-}
-.copy-rights{
-  float: left;
-  height: 50px;
-}
-.social-networks{
-  float: right;
-  height: 50px;
-  padding-right: 5%;
-}
-.footer-lower-content .social-link{
-  display: inline-block;
-  font-size: 30px;
-  padding: 0 5px;
-}
-.footer-lower-content .social-link a{
-  color: white;
-}
 .flexbox{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .google-maps{
-  width: 100%;
   height: 300px;
+}
+
+/*Footter*/
+footer{
+  background-color: #1abc9c;
+  width: 100%;
+}
+
+/* upgrade */
+.footer-title{
+  padding-top: 30px;
+}
+.footer-lower{
+  background-color: #375249;
   margin-top: 20px;
+  height: 70px;
+}
+.footer-lower .container{
+  height: 70px;
+}
+.contact{
+  margin-top: 20px;
+}
+.contact .col p{
+  margin-bottom: 15px;
+}
+.contact .row .col-ms-2{
+  width: 30px;
+}
+.contact .row i{
+  font-size: 25px;
+  width: 25px;
+}
+.contact .btn-contact{
+  width: 100%;
+  padding-top: 4%;
+  padding-right: 8%;
+}
+.contact .btn-contact a{
+  float: right;
+}
+.copy-right, .social-networks{
+  width: 50%;
+}
+.social-networks, .social-link{
+  display: inline-block;
+}
+.social-networks ul{
+  float: right;
+}
+.social-networks ul, .copy-right p{
+  margin-bottom: 0px;
+}
+.social-link{
+  padding: 0 3px;
+}
+.footer-main,.footer-lower,.social-link a, .social-link a:hover{
+  color: white;
+}
+.social-link a{
+  font-size: 30px;
 }
