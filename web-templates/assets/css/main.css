@@ -84,6 +84,7 @@ header{
 }
 .google-maps{
   height: 300px;
+  margin-top: 20px;
 }
 
 /*Footter*/
@@ -94,7 +95,8 @@ footer{
 
 /* upgrade */
 .footer-title{
-  padding-top: 30px;
+  padding: 10px 0;
+  margin-left: -15px;
 }
 .footer-lower{
   background-color: #375249;
