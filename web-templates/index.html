@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/font-awesome/css/all.css">
+    <link rel="stylesheet" href="./assets/css/glider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
@@ -28,18 +29,42 @@
     <!-- Contenido -------------------------------------->
     <div class="container">
       <section class="section flex-box">
-        <div class="descripcion">
-          <p>
-            <b>COOP-ASOVOLTANK</b>, Es una cooperativa que presta el servicio transporte especial, ejecición de obras civiles
-            y suministros de mano de obra calificada. Contamos con operación a nivel nacional.
-            <!--Tenemos como objeto principal prestar el servicio de Buses, Microbuses, Busetas, Camionetas,
-            Volquetas, Ambulancias, Cama Baja, Cama Alta y Maquinaria Pesada. Ejecutamos Obras Civiles
-            y suministramos Mano de Obra Calificada; propia del objeto social definido.
-          </p>-->
 
-            <!--<img src="../assets/images/foto1.jpg" class="imagen1"alt="">-->
+        <div class="carousel">
+            <div class="carousel-container">
+              <button aria-label="Anterior" class="carousel-anterior">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+
+              <div class="carousel-lista">
+                  <div class="carousel-elemento">
+                      <img src="./assets/images/foto4.jpg" alt="Buseta viajes">
+                      <p>Busetas</p>
+                  </div>
+                  <div class="carousel-elemento">
+                      <img src="./assets/images/foto3.jpg" alt="Buseta viajes">
+                      <p>Busetas</p>
+                  </div>
+                  <div class="carousel-elemento">
+                      <img src="./assets/images/foto2.jpg" alt="Buseta viajes">
+                      <p>Busetas</p>
+                  </div>
+                  <div class="carousel-elemento">
+                      <img src="./assets/images/foto1.jpg" alt="Buseta viajes">
+                      <p>Busetas</p>
+                  </div>
+              </div>
+
+              <button aria-label="Siguiente" class="carousel-siguiente">
+              <i class="fas fa-chevron-right"></i>
+              </button>
+
+            </div>
         </div>
-        <div class="mision-vision"></div>
+
+        <div role="tablist" class="carousel-indicadores"></div>        
+
+
       </section>
     </div>
     <!-- Footer ----------------------------------------->
@@ -122,5 +147,7 @@
     <!-- Scripts -------------------------------------------->
     <script src="./assets/js/script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    <script src="./assets/js/glider.js"></script>
+
   </body>
 </html>

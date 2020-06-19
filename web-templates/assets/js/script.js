@@ -9,3 +9,6 @@ function iniciarMap(){
       map: map
     });
 }
+
+window.addEventListener('load', function(){
+  new Glider(document.querySelector('.carousel-lista'))});//todo lo que tenemos dentro van a formar parte del carrusel
